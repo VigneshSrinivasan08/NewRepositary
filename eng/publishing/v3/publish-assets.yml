@@ -28,7 +28,7 @@ jobs:
     - task: DownloadBuildArtifacts@0
       displayName: Download Build Assets
       continueOnError: true
-      enable : false
+      enabled : false
       inputs:
         buildType: specific
         buildVersionToDownload: specific
@@ -46,7 +46,7 @@ jobs:
     - task: DownloadBuildArtifacts@0
       displayName: Download Build Assets
       continueOnError: true
-      enable : true
+      enabled : true
       inputs:
         buildType: specific
         buildVersionToDownload: specific
