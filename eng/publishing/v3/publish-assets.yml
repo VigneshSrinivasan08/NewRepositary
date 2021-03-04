@@ -55,6 +55,7 @@ jobs:
         buildId: $(AzDOBuildId)
         downloadType: 'specific'
         itemPattern: |
+          AssetManifests/**
           PdbArtifacts/**
         downloadPath: '$(Build.ArtifactStagingDirectory)'
     - task: NuGetToolInstaller@1
